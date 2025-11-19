@@ -1,0 +1,13 @@
+model Company {
+    id Int @id @default(autoincrement())
+    title String
+    shortTitle String?
+    type CompanyType
+    phoneNumber String
+    address String?
+}
+
+enum CompanyType {
+    SUPPLIER
+    CLINIC
+}
