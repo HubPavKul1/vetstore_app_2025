@@ -1,1 +1,2 @@
-export { Header, AcmeLogo } from "./ui/header";
+export { Header} from "./ui/header/Header"
+
